@@ -77,7 +77,9 @@ ORDER BY role_count DESC;
 ```
 #### 📊 **Most Common Data Roles in the UK** 
 
-![Most common roles](visualization\q1)
+![Most common roles](assets\q1.png)
+
+
 - **Data Engineer (29%)** 🔧🏗️: The demand for **data engineers** is at an all-time high, as companies need experts to build and maintain robust data infrastructures.
 - **Data Analyst (26%)** 📊🔍: Close behind, **data analysts** are in great demand for their ability to interpret data and produce actionable reports.
 - **Data Scientist (23%)** 🤖📈: With the rise of AI and machine learning, **data scientists** are sought after to unlock the power of advanced analytics.
