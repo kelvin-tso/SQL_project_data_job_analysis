@@ -54,3 +54,4 @@ from
 skill_counts
 ORDER BY
     percentage DESC
+limit 10

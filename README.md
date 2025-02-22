@@ -77,12 +77,13 @@ ORDER BY role_count DESC;
 ```
 #### 📊 **Most Common Data Roles in the UK** 
 
-![Most common roles](assets\q1.png)
+![Most common roles](assets/most_common_roles.png)
 
+- **Data Engineer (29%)** 🔧🏗️
 
-- **Data Engineer (29%)** 🔧🏗️: The demand for **data engineers** is at an all-time high, as companies need experts to build and maintain robust data infrastructures.
-- **Data Analyst (26%)** 📊🔍: Close behind, **data analysts** are in great demand for their ability to interpret data and produce actionable reports.
-- **Data Scientist (23%)** 🤖📈: With the rise of AI and machine learning, **data scientists** are sought after to unlock the power of advanced analytics.
+- **Data Analyst (26%)** 📊🔍
+
+- **Data Scientist (23%)** 🤖📈
 
 #### 🚀 **Key Insights**:
 
@@ -165,8 +166,6 @@ order BY
 - **Python**: Frequently mentioned, signaling that scripting and data manipulation are crucial in modern data analysis. 🐍
 - **Excel**: Still widely used, especially in **business intelligence** and **financial analysis** roles. 📊
 - **Tableau / Power BI / Looker**: These **visualization tools** are vital for **data storytelling**, helping analysts communicate insights effectively. 📈
-- **AWS / Azure / GCP**: **Cloud technologies** are becoming increasingly important, especially in larger organizations handling large datasets. ☁️
-- **VBA**: Still present, particularly in **finance-related roles**, where automation and custom Excel functions are key. 🖥️
 
 #### 📊 **Skill Differences: Senior vs Junior Roles**:
 
@@ -178,13 +177,10 @@ order BY
   - Expected to have proficiency in **Python**, **SQL**, and **advanced tools** like **Databricks**, **Spark**, and **Kubernetes**. 🌐
   - Familiarity with **Cloud platforms** like **AWS**, **Azure**, and **GCP** is essential for handling large-scale data. ☁️
 
-- **Specialized Senior Roles** (e.g. Data Engineer, Machine Learning Engineer): 
-  - Additional expertise in tools like **Airflow**, **Jupyter**, **Firebase**, and **NoSQL databases** is required. ⚙️
-
 #### 🚀 **Key Takeaways**:
 - **Core tools** like **SQL** and **Excel** remain vital across all roles.
 - As you move to more **senior positions**, expect to see a greater demand for **Python**, **Cloud platforms**, and **big data tools** like **Spark** and **Databricks**.
-- Specialized roles often require **advanced technologies** and **machine learning** skills.
+
 
 This emphasizes the **growth potential** in data analytics and highlights the need for **continuous learning** and **upskilling!** 📚💡
 
@@ -231,18 +227,19 @@ from
 skill_counts
 ORDER BY
     percentage DESC
+Limit 10
 ```
+![Most desired skill](assets\most_desried_skill.png)
+
 #### 🏆 **Most In-Demand Skills**:
 
-- **SQL** (16%) - The most in-demand skill, appearing **41 times** in job postings. It's the backbone of data analysis and querying databases. 📝
-- **Excel** (12%) - A close second, with **31 occurrences**. Still a fundamental tool in data analysis, especially in business intelligence and reporting. 📊
-- **Python** (10%) - A versatile programming language with **26 mentions**, essential for data manipulation, automation, and building analytical models. 🐍
+- **SQL** (16%) - The most in-demand skill, appearing **41 times** in job postings.
+- **Excel** (12%) - A close second, with **31 occurrences**. 
+- **Python** (10%) - A versatile programming language with **26 mentions**
 
 #### 🔑 **Key Insights**:
 - **SQL**, **Excel**, and **Python** are foundational to data analysis and are the most consistently required skills.
 - **Tableau** is in higher demand than **Power BI**, showing the preference for specific data visualization tools in job postings. 📊🔍
-- While **cloud** and **database technologies** are becoming increasingly important, they aren't as essential as the core skills of SQL, Excel, and Python.
-- **Machine learning** and **programming** skills appear to have lower demand compared to core analytics tools, suggesting that entry-level roles still focus on foundational data analysis tasks. 🤖💻
 
 By focusing on these key skills—**SQL**, **Excel**, and **Python**—you can position yourself as a competitive candidate in the data analytics job market! 🚀
 
@@ -280,22 +277,22 @@ GROUP BY
 order BY
     earning_average DESC
 ```
-When it comes to earning potential, some skills stand out above the rest. Below are the top-paying skills in the data analytics space, showing you where to focus your learning for the highest returns.
 
 #### 🏆 **Top Highest-Paying Skills**:
 
-- **MySQL**: £104,083 💰 – The highest-paid skill, highlighting the importance of relational databases in data analytics.
-- **Firebase**, **PostgreSQL**, **Airflow**, **Kubernetes**, and **GitHub**: £93,331 each 🔝 – These cloud, database, and workflow tools are in high demand.
-- **Cognos**, **SAP**, and **NoSQL**: £87,828 each 💼 – Critical skills for business intelligence, data warehousing, and database management.
+- **MySQL**: £104,083 💰 
+- **Firebase**, **PostgreSQL**, **Airflow**, **Kubernetes**, and **GitHub**: £93,331 each 🔝
+- **Cognos**, **SAP**, and **NoSQL**: £87,828 each 💼
 
 #### 💡 **Key Insights**:
 - **Database Skills**: MySQL, PostgreSQL, and NoSQL are key players when it comes to high-paying roles, showing the value of solid data management expertise. 🗄️📊
 - **Cloud & Big Data Tools**: Tools like **AWS**, **Databricks**, and **Kubernetes** offer excellent pay, reflecting the industry's reliance on cloud and big data technologies. ☁️🔧
 - **Visualization**: **Tableau** (£65,941) outshines **Power BI** (£59,949) in terms of salary, making it a more lucrative choice for data visualization. 📊💡
-- **Basic Office Software**: While essential in many roles, skills like **Word** and **PowerPoint** pay the least in the data analytics market. 📝📉
 
 #### 📊 **Conclusion**:
-Focusing on database management skills like **MySQL** and **PostgreSQL**, cloud technologies like **AWS** and **Kubernetes**, and business intelligence tools like **Cognos** can significantly boost your salary potential. Additionally, prioritizing **Tableau** over **Power BI** for visualization and learning **Airflow** for big data workflows can increase your earnings in the data analytics industry. 💼💵
+Focusing on database management skills like **MySQL** and **PostgreSQL**, cloud technologies like **AWS** and **Kubernetes**, and business intelligence tools like **Cognos** can significantly boost your salary potential.
+
+ Additionally, prioritizing **Tableau** over **Power BI** for visualization and learning **Airflow** for big data workflows can increase your earnings in the data analytics industry. 💼💵
 
 ### 6. Which skill is the most optimal to learn, considering both demand and earning potential?
 Choosing the right skills to focus on is crucial in building a career in data analytics. By balancing **demand** with **earning potential**, we can identify the most valuable skills to invest time and effort into.
@@ -345,14 +342,14 @@ order BY
     skill_count DESC, average_salary DESC
 ```
 #### 🔥 **Top Skills in Demand**:
-- **SQL** (16% demand) – The backbone of data analytics and consistently in high demand across all industries. 🔄
-- **Excel** (12% demand) – Still a foundational skill, particularly in business intelligence and financial roles. 📊
-- **Python** (10% demand) – Widely used for data manipulation, automation, and machine learning. 🤖
+- **SQL** (16% demand) 
+- **Excel** (12% demand) 
+- **Python** (10% demand)
 
 #### 💸 **Top-Paying Skills**:
-- **MySQL** (£104,083) – The highest-paying skill, with strong demand in data management and analytics. 💵
-- **Airflow**, **Firebase**, **Kubernetes**, **GitHub**, and **PostgreSQL** (£93,331 each) – High-paying cloud, workflow, and database tools. ☁️
-- **NoSQL**, **Cognos**, **SAP** (£87,828 each) – High demand in business intelligence, data warehousing, and databases. 🔑
+- **MySQL** (£104,083) 
+- **Airflow**, **Firebase**, **Kubernetes**, **GitHub**, and **PostgreSQL** (£93,331 each) 
+- **NoSQL**, **Cognos**, **SAP** (£87,828 each) 
 
 #### 🏅 **Optimal Skills to Learn**:
 When considering both **demand** and **earning potential**, these are the most **optimal skills** to learn:
@@ -367,6 +364,30 @@ When considering both **demand** and **earning potential**, these are the most *
 To make the most informed choice, focus on **SQL**, **Python**, and **PostgreSQL** for solid earnings and demand. If you’re interested in cloud computing and big data, **Airflow** and **Kubernetes** are optimal for future growth, while **Tableau** offers excellent potential for those interested in data visualization. By mastering these skills, you'll be in a prime position to excel in the data analytics industry. 🚀💼
 
 ## 🎓What I learned
+Throughout this analysis, I gained valuable insights into the most in-demand skills for data-related roles. By working with real-world data, I reinforced my ability to clean, organize, and visualize information effectively. Some key takeaways include:  
 
+- 🔍 **SQL, Excel, and Python Dominance** – SQL remains the most sought-after skill, followed by Excel and Python, emphasizing their importance in data analysis and business intelligence.  
+- 📊 **Visualization Tools Matter** – Tableau and Power BI are among the top skills, highlighting the industry's reliance on effective data storytelling.  
+- ☁️ **Cloud & Big Data Tools** – Technologies like AWS, Azure, and BigQuery are becoming essential for handling large-scale data operations.  
+- 🛠️ **Broad Skillset in Demand** – Apart from core technical skills, knowledge of programming languages (e.g., R, JavaScript, and Go) and data management tools (e.g., Hadoop, Spark, and Snowflake) can provide a competitive edge.  
+
+Through this process, I also improved my ability to interpret trends, work with **Matplotlib** for visualization 🎨, and refine my **data-driven decision-making skills** 📈.  
 
 ## 📝Conclusion
+### Insights
+This analysis provided valuable insights into the most in-demand skills for data-related roles. The findings highlight the dominance of **SQL, Excel, and Python**, reinforcing their importance in data analytics and business intelligence. Additionally, the growing demand for **data visualization tools** like Tableau and Power BI emphasizes the need for effective data storytelling.  
+
+#### **Key Takeaways:**  
+- ✅ **SQL is essential** – With SQL leading in skill demand, mastering it is crucial for querying and managing data efficiently.  
+- 📈 **Python vs. Excel** – While Excel remains widely used, Python's increasing demand suggests a shift toward automation and advanced analytics.  
+- ☁️ **Cloud & Big Data Growth** – The presence of AWS, Azure, and BigQuery in the dataset highlights the industry's shift towards cloud-based solutions.  
+- 🔥 **Diversifying Skills** – Knowledge of complementary tools like Spark, Hadoop, and Snowflake can enhance career opportunities in data engineering and analytics.  
+
+### Closing thoughts
+Finishing my first project has been both challenging and rewarding. As I reflect on the journey, I feel a great sense of accomplishment. The process has been a true learning experience—one that has stretched my abilities and provided me with insights into both my strengths and areas for growth. 🚀
+
+Throughout this project, I’ve gained invaluable skills in data analysis, problem-solving, and time management. 🧠 I’ve learned how to apply my knowledge in a practical setting, adapt to new tools and technologies, and think critically under pressure. 💻 There were moments of frustration, but they were always followed by breakthroughs that reinforced my resilience and determination. 💪
+
+As I move forward, I understand the importance of continually equipping myself with the right tools and mindset. 🔧 This experience has shown me that being adaptable and willing to learn are key to success in this field. 📚 I will continue to build on what I’ve learned, sharpening my skills in Excel, SQL, Python, and beyond. 🐍
+
+Ultimately, this project has laid a strong foundation for my growth in data analysis, and I’m excited about what the future holds. 🌱 Every step of this journey has brought me closer to my goals, and I’m ready to take on the next challenge with even more confidence. 🎯

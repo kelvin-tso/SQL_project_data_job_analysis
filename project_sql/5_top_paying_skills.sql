@@ -44,3 +44,4 @@ GROUP BY
     skills
 order BY
     earning_average DESC
+
